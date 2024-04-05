@@ -6,15 +6,16 @@
 
 .container
 {
-    height:256px;
-    width:256px;
+    height:480px;
+    width:640px;
+    border:2px solid blue;
     display:flex;
     flex-wrap:wrap;
 }
 
 .container div
 {
-    height:16px;
-    width:16px;
+    height:30px;
+    width:40px;
     background-color:black;
 }
