@@ -1,0 +1,20 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+.container
+{
+    height:256px;
+    width:256px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.container div
+{
+    height:16px;
+    width:16px;
+    background-color:black;
+}
