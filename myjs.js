@@ -5,7 +5,7 @@ const button = document.querySelector("button");
 for(let i = 0; i < 256; i++)
 {
     const div = document.createElement("div");
-    div.addEventListener("mouseover", function()
+    div.addEventListener("mouseenter", function()
     {
         div.style.backgroundColor = "white";
     });
@@ -30,7 +30,7 @@ button.addEventListener("click", ()=>
         const div = document.createElement("div");
         div.style.height = String(480/squares) + "px";
         div.style.width = String(640/squares) + "px";
-        div.addEventListener("mouseover", function()
+        div.addEventListener("mouseenter", function()
         {
             div.style.backgroundColor = "white";
         });
